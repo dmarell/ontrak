@@ -5,7 +5,10 @@
 The library is packaged as an OSGi bundle.
 
 ### Release notes
-* Version 1.0.4 - 2015-07-07 Moved to Github
+* Version 1.0.5 - 2015-07-19
+  * Changed repo URL
+* Version 1.0.4 - 2015-07-07
+  * oved to Github
 * Version 1.0.3 - 2014-02-08
   * Java 7
   * Changed pom versioning mechanism.
@@ -24,14 +27,14 @@ In this version a single device is supported on a single platform: The ADU 208 m
 <repositories>
   <repository>
     <id>marell</id>
-    <url>http://marell.se/nexus/content/repositories/releases/</url>
+    <url>http://marell.se/artifactory/libs-release</url>
   </repository>
 </repositories>
 
 <dependency>
   <groupId>se.marell.iodevices</groupId>
   <artifactId>ontrak</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
 </dependency>
 ```
 
